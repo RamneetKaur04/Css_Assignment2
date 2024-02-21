@@ -1,0 +1,142 @@
+
+* {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-image: url("nature\ image.jpg");
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   min-height: 100vh;
+   background: linear-gradient(135deg, rgb(249, 170, 208), pink, rgb(248, 183, 220), pink, rgb(252, 167, 211));
+   border: 10px solid #f478f4; 
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+   padding: 20px; 
+}
+
+h1 {
+   text-align: left; 
+   margin-left: 20px;
+   margin-top: 20px; 
+   color: black;
+}
+
+.container {
+   background: rgb(232, 192, 222);
+   color: #e6ecb6;
+   
+   border-radius: 10px; 
+   padding: 20px; 
+   backdrop-filter: blur(20px);
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+   margin-top: 20px; 
+   text-align: left; 
+   width: 80%;
+   max-width: 600px; 
+}
+p {
+   color: black; 
+}
+
+
+        
+        @keyframes float {
+         0% {
+             transform: translateY(0);
+         }
+         50% {
+             transform: translateY(-10px);
+         }
+         100% {
+             transform: translateY(0);
+         }
+     }
+
+     .bubble {
+         position: absolute;
+         width: 30px;
+         height: 40px;
+         background-color: rgba(255, 255, 255, 0.5);
+         border-radius: 50%;
+         animation: float 3s ease-in-out infinite;
+         background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2)); 
+     }
+ 
+ .bubble1 {
+   top: 10%;
+   left: 10%;
+}
+
+.bubble2 {
+   top: 30%;
+   left: 30%;
+}
+
+.bubble3 {
+   top: 50%;
+   left: 50%;
+}
+
+.bubble4 {
+   top: 70%;
+   left: 70%;
+}
+
+.bubble5 {
+   top: 90%;
+   left: 90%;
+}
+
+.bubble6 {
+   top: 20%;
+   left: 80%;
+}
+
+.bubble7 {
+   top: 40%;
+   left: 20%;
+}
+
+.bubble8 {
+   top: 60%;
+   left: 10%;
+}
+
+.bubble9 {
+   top: 80%;
+   left: 40%;
+}
+
+.bubble10 {
+   top: 20%;
+   left: 60%;
+}
+
+.bubble11 {
+   top: 40%;
+   left: 80%;
+}
+
+.bubble12 {
+   top: 60%;
+   left: 90%;
+}
+
+.bubble13 {
+   top: 80%;
+   left: 70%;
+}
+
+.bubble14 {
+   top: 30%;
+   left: 90%;
+}
+
+.bubble15 {
+   top: 50%;
+   left: 10%;
+}
